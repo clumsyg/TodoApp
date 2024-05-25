@@ -50,7 +50,7 @@ const Todo = () => {
             }
         }
 
-        // 画面更新
+        // 画面更新処理
         setTodos(newTodos);
     }
 

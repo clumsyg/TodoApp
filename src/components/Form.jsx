@@ -1,5 +1,4 @@
 import { useState, useContext } from "react";
-// import todoApi from "../../api/todo";
 import { MyContext } from "./Todo";
 import axios from "axios";
 
@@ -36,8 +35,8 @@ const Form = ({ addTodos }) => {
                     type="text"
                     value={val}
                     onChange={change}
-                    placeholder="新しいtodo"
-                    style={{width: '250px'}}
+                    placeholder="新しいTodo"
+                    style={{ width: '250px' }}
                     required
                     autoFocus
                 />
