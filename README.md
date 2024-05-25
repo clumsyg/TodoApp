@@ -14,15 +14,15 @@ npm i -D json-server
 npm i -D axios
 ```
 
-### 開発環境立ち上げ
+### Vite開発環境立ち上げ
 ```bash
 npm run dev
 ```
 
-### json-serverサーバー立ち上げ
+### json-server立ち上げ
 ```bash
 npm run js
 ```
 
 ### その他
-- 記述したコードは主にsrcディレクトリの中身
+- 記述したコードは主に`src`ディレクトリの中身
