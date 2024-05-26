@@ -1,5 +1,9 @@
-### データベースと連携したTodoアプリ
-Todoの登録 / 削除 / 編集が可能
+### Todo App
+- Todoの登録 / 削除 / 編集
+- データベースと連携
+- レスポンシブなWebデザイン
+
+<img src="./Images/todoImage.png" width="40%" height="40%" />
 
 ### 使用技術
 - `React`
@@ -7,11 +11,15 @@ Todoの登録 / 削除 / 編集が可能
     - [axios](https://axios-http.com)でAPI操作
 - [Vite](https://ja.vitejs.dev)
     - `React`のプロジェクト作成で使用
+- [React icons](https://react-icons.github.io/react-icons/)
+- [react-hot-toast](https://react-hot-toast.com)
 
 ### インストール
 ```bash
 npm i -D json-server
 npm i -D axios
+npm install -D react-hot-toast
+npm install react-icons --save
 ```
 
 ### Vite開発環境立ち上げ
@@ -25,4 +33,4 @@ npm run js
 ```
 
 ### その他
-- 主にsrc/componentsの中にコードを記述
+- 主にsrc/components内にコードを記述

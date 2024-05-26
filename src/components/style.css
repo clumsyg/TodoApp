@@ -1,0 +1,64 @@
+.list-h2,
+.form-h2 {
+    text-align: center;
+    color: burlywood;
+}
+
+.check-icon {
+    width: 40px;
+    height: 40px;
+    color: aquamarine;
+    margin-left: 20px;
+    margin: 20px;
+}
+
+.edit-icon {
+    width: 40px;
+    height: 40px;
+    color: khaki;
+    margin-left: 20px;
+    margin: 20px
+}
+
+.check-icon:hover,
+.edit-icon:hover,
+.submit-icon:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.3);
+}
+
+.submit-input:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.span {
+    padding-top: 18px;
+    margin: 10px;
+    margin-bottom: 18px;
+    border-bottom: solid 1px;
+}
+
+.span:hover {
+    color: coral;
+    transition: color 0.3s ease;
+    transform: scale(1.1);
+}
+
+.submit-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.submit-div,
+.edit-div,
+.todo-div {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-p {
+    text-align: center;
+    color: rgb(52, 103, 235)
+}

@@ -1,12 +1,16 @@
 import axios from "axios";
+import toast from 'react-hot-toast';
 import List from "./List";
 import Form from "./Form";
+import './style.css';
 import { createContext, useState, useEffect } from "react";
 
 export const MyContext = createContext();
 
 const Todo = () => {
     const [todos, setTodos] = useState([]);
+
+    const notifyDelete = () => toast.success('削除完了！');
 
     const url = `http://localhost:5174/todos/`;
 
@@ -50,8 +54,8 @@ const Todo = () => {
             }
         }
 
-        // 画面更新処理
         setTodos(newTodos);
+        notifyDelete();
     }
 
     const addTodos = (newTodos) => {
