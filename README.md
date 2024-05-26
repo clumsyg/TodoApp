@@ -16,9 +16,9 @@
 
 ### インストール
 ```bash
-npm i -D json-server
-npm i -D axios
-npm i -D react-hot-toast
+npm i json-server
+npm i axios
+npm i react-hot-toast
 npm i react-icons --save
 ```
 
