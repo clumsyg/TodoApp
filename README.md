@@ -3,7 +3,7 @@
 - データベースと連携
 - レスポンシブなWebデザイン
 
-<img src="./Images/todoImage.png" width="100%" height="100%" />
+<img src="./Images/todoImage.png" width="50%" height="80%" />
 
 ### 使用技術
 - `React`
