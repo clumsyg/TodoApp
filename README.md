@@ -6,7 +6,7 @@
 <img src="./Images/todoImage.png" width="50%" height="100%" />
 
 ### 使用技術
-- `React`
+- `React`（`JavaScript`）
 - [json-server](https://github.com/typicode/json-server)
     - [axios](https://axios-http.com)でAPI操作
 - [Vite](https://ja.vitejs.dev)
