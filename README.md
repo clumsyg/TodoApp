@@ -18,8 +18,8 @@
 ```bash
 npm i -D json-server
 npm i -D axios
-npm install -D react-hot-toast
-npm install react-icons --save
+npm i -D react-hot-toast
+npm i react-icons --save
 ```
 
 ### Vite開発環境立ち上げ
