@@ -1,4 +1,4 @@
-### Todo App
+# Todo App
 - Todoの登録 / 削除 / 編集
 - データベースと連携
 - レスポンシブなWebデザイン
@@ -32,5 +32,5 @@ npm run dev
 npm run js
 ```
 
-### その他
+## その他
 - 主にsrc/components内にコードを記述
