@@ -17,6 +17,7 @@
 ### インストール
 ```bash
 npm i json-server
+npm i concurrently
 npm i axios
 npm i react-hot-toast
 npm i react-icons --save
@@ -34,3 +35,5 @@ npm run js
 
 ## その他
 - 主にsrc/components内にコードを記述
+- `npm run start`を実行することで、`npm run dev`と`npm run js`の2つを実行した場合と同じ効果が得られる
+    - package.jsonファイルを参照
