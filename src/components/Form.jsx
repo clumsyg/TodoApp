@@ -44,7 +44,7 @@ const Form = ({ addTodos }) => {
                     value={val}
                     onChange={change}
                     placeholder="新しいTodo"
-                    style={{ width: '250px' }}
+                    style={{ width: '200px' }}
                     required
                     autoFocus
                 />
