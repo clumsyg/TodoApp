@@ -3,7 +3,7 @@
 - データベースと連携
 - レスポンシブなWebデザイン
 
-<img src="./Images/todoImage.png" width="50%" height="100%" />
+![todo](https://github.com/clumsyg/TodoApp/assets/154292137/d849b099-44fd-4150-9201-d1da2bc7c9fa)
 
 ### 使用技術
 - `React`（`JavaScript`）
