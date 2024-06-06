@@ -12,7 +12,7 @@ const Todo = () => {
 
     const notifyDelete = () => toast.success('削除完了！');
 
-    const url = `http://localhost:5174/todos/`;
+    const url = import.meta.env.VITE_API_URL;
 
     useEffect(() => {
         const getTodos = async () => {

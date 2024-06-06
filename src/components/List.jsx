@@ -11,7 +11,7 @@ const List = ({ deleteTodo }) => {
     const [val, setVal] = useState('');
     const [editId, setEditId] = useState('');
 
-    const url = `http://localhost:5174/todos/`;
+    const url = import.meta.env.VITE_API_URL;
 
     const notifyEdit = () => toast.success('編集完了！');
     const errorEdit = () => toast.error('空白で登録はできません！');

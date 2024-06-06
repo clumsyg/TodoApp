@@ -13,6 +13,8 @@ const Form = ({ addTodos }) => {
 
     const change = (e) => setVal(e.target.value);
 
+    const url = import.meta.env.VITE_API_URL;
+
     const submit = async () => {
         if (!val) {
             errorSubmit();
@@ -20,7 +22,7 @@ const Form = ({ addTodos }) => {
         }
 
         try {
-            const res = await axios.post("http://localhost:5174/todos", {
+            const res = await axios.post(url, {
                 id: String(todos.length + 1),
                 text: val
             });
