@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite --port 3000",
-        "js": "npx json-server -w json/index.json --port 3001",
+        "js": "npx json-server -w mock/db.json --port 3001",
         "start": "concurrently \"npm run dev\" \"npm run js\"",
         "build": "vite build && cp -r dist docs",
         "git": "git add --a && git commit -m 'build' && git push",
