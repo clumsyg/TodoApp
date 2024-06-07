@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite --port 3000",
-        "js": "npx json-server -w db.json --port 3001",
+        "js": "npx json-server -w json/index.json --port 3001",
         "start": "concurrently \"npm run dev\" \"npm run js\"",
         "build": "vite build && cp -r dist docs",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
