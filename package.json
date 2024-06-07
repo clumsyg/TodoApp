@@ -7,7 +7,7 @@
         "dev": "vite --port 3000",
         "js": "npx json-server -w mock/db.json --port 3001",
         "start": "concurrently \"npm run dev\" \"npm run js\"",
-        "build": "vite build",
+        "build": "vite build && cp -r dist docs",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
