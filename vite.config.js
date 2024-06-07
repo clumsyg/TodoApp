@@ -7,5 +7,5 @@ export default defineConfig({
     base: process.env.GITHUB_PAGES
         ? "TodoApp"
         : "./",
-    VITE_API_URL: "https://clumsyg.github.io/TodoApp/"
+    // VITE_API_URL: "https://clumsyg.github.io/TodoApp/"
 })
