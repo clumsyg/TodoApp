@@ -1,6 +1,6 @@
 # Todo App
 - Todoの登録 / 削除 / 編集
-- データベースと連携
+- データベースと連携（ローカルのみ）
 - レスポンシブなWebデザイン
 
 ![todo](https://github.com/clumsyg/TodoApp/assets/154292137/d849b099-44fd-4150-9201-d1da2bc7c9fa)
