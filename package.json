@@ -8,6 +8,7 @@
         "js": "npx json-server -w json/index.json --port 3001",
         "start": "concurrently \"npm run dev\" \"npm run js\"",
         "build": "vite build && cp -r dist docs",
+        "git": "git add --a && git commit -m 'build' && git push",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
