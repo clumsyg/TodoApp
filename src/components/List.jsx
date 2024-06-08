@@ -35,14 +35,14 @@ const List = ({ deleteTodo }) => {
                 text: val
             });
         } catch (e) {
-            console.log('編集完了ボタン押下時のpatchのエラーは', e);
+            console.log('編集完了ボタン押下時のaxios.patchのエラーは', e);
         }
 
         try {
             const editedTodo = await axios.get(url);
             setTodos(editedTodo.data);
         } catch (e) {
-            console.log('編集完了後のgetのエラーは', e);
+            console.log('編集完了後のaxios.getのエラーは', e);
         }
 
         setIsEdit(prev => !prev);

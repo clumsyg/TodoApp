@@ -16,9 +16,14 @@ const Todo = () => {
 
     useEffect(() => {
         const getTodos = async () => {
-            const res = await axios.get(url);
-            setTodos(res.data);
+            try {
+                const res = await axios.get(url);
+                setTodos(res.data);
+            } catch (e) {
+                console.log('初期表示用のaxios.getのエラーは', e);
+            }
         }
+
         getTodos();
     }, []);
 
@@ -27,7 +32,7 @@ const Todo = () => {
         try {
             await axios.delete(url + id);
         } catch (e) {
-            console.log('最初のaxios.delete時のエラーは', e);
+            console.log('db削除時のaxios.deleteのエラーは', e);
         }
 
         // db更新処理（idを連番にする）
@@ -41,7 +46,7 @@ const Todo = () => {
                 const add = parseInt(i) + 1;
                 await axios.delete(url + add);
             } catch (e) {
-                console.log('更新処理内のaxios.delete時のエラーは', e);
+                console.log('更新処理内のaxios.deleteのエラーは', e);
             }
 
             try {
@@ -50,7 +55,7 @@ const Todo = () => {
                     text: newTodos[i - 1].text
                 });
             } catch (e) {
-                console.log('更新処理内のaxios.post時のエラーは', e);
+                console.log('更新処理内のaxios.postのエラーは', e);
             }
         }
 
